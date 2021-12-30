@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(176, 222, 236);
+}
+ 
+.parent{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+
+}
+
+img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 35px;
+   
+}
+.paragraph {
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.6;
+    padding: 0 20px;
+}
+.annual {
+      width: 90%;
+      height: 50px;
+      background-color: rgb(250, 250, 250);
+      display: flex;
+      align-items: center;
+      border-radius: 7px;
+      margin: 5%;
+}
+
+.annual i{
+     width: 50px;
+     height: 30px;
+     background-color: rgb(197, 196, 196);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center ;
+     align-items: center;
+     margin-left: 10px;
+     padding-right: 3px;
+}
+
+.annual .plan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+
+}
+ .plan p{
+    opacity: 0.6;
+ }
+
+ .blue {
+     width: 90%;
+     height: 50px;
+     background-color: rgb(55, 26, 221);
+     margin-left: 5%;
+     border-radius: 7px;
+     text-align: center;
+     line-height: 50px;
+     font-weight: bolder;
+     color: white;
+     border: rgb(55, 26, 221) solid 1px;
+     
+ }
+
+.cancel{
+    width: 90%;
+     height: 50px;
+     background-color: rgb(255, 255, 255);
+     margin-left: 5%;
+     border-radius: 7px;
+     text-align: center;
+     line-height: 50px;
+     font-weight: bolder;
+     margin-top: 15px;
+     border: rgb(255, 255, 255) solid 1px ;
+     font-size: 15px;
+     color: rgb(58, 57, 57);
+}
+
+.annual a{
+    padding-right: 20px;
+}
